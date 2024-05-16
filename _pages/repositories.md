@@ -6,7 +6,7 @@ nav: true
 nav_order: 4
 ---
 
-## GitHub users
+<!-- ## GitHub users
 
 {% if site.data.repositories.github_users %}
 
@@ -14,9 +14,9 @@ nav_order: 4
   {% for user in site.data.repositories.github_users %}
     {% include repository/repo_user.liquid username=user %}
   {% endfor %}
-</div>
+</div> -->
 
----
+<!-- ---
 
 {% if site.repo_trophies.enabled %}
 {% for user in site.data.repositories.github_users %}
@@ -32,7 +32,7 @@ nav_order: 4
 
 {% endfor %}
 {% endif %}
-{% endif %}
+{% endif %} -->
 
 ## GitHub Repositories
 
