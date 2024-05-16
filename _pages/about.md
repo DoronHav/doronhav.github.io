@@ -14,8 +14,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: True # includes social icons at the bottom of the page
 ---
 
-I am Doron (gift in Hebrew), a PhD candidate in [Dana Pe'er Lab](https://www.mskcc.org/research/ski/labs/dana-pe-er) at Memorial Sloan Kettering Cancer Center, through Cornell University's Tri-Institutional PhD program in Computational Biology. 
-Before that, I graduated from Technion in 2019 with a bachelor's in Physics and a bachelor's  in electrical engineering.
+I am Doron (means gift in Hebrew), a PhD candidate at the [Dana Pe'er Lab](https://www.mskcc.org/research/ski/labs/dana-pe-er) at Memorial Sloan Kettering Cancer Center, through Cornell University's Tri-Institutional PhD program in Computational Biology. 
+Before that, I graduated from Technion in 2019 with a bachelor's in Physics and a bachelor's in electrical engineering.
 
 My research mainly involves optimal transport & spatial transcriptomics. 
 
