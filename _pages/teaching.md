@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: During my time at Techion, as was fortunate to TA for the faculty of electrical engineering. Duties included delivering weekly recitations, along with designing exams and grading assignments.
+description: During my time at Technion, I was fortunate to serve as TA for several courses at the Faculty of Electrical Engineering. My duties included delivering weekly recitations, as well as designing exams and evaluating assignments.
 nav: true
 nav_order: 6
 ---
