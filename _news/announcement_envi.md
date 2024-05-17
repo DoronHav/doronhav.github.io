@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-ENVI is now published in [Nature Biotechnology](https://www.nature.com/articles/s41587-024-02193-4)
+ENVI is now published in [Nature Biotechnology](https://www.nature.com/articles/s41587-024-02193-4)!
