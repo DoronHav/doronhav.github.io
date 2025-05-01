@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Wasserstein Flow Matchig](https://arxiv.org/pdf/2411.00698) was accepted to ICML2025!
+[Wasserstein Flow Matching](https://arxiv.org/pdf/2411.00698) was accepted to ICML2025!
