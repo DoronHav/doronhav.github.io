@@ -1,0 +1,188 @@
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{letterpaper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{hanging}
+ \usepackage{setspace}
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+%%%%%%%%%%
+\setstretch{1.22}
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead{}
+\fancyhead[L]{\textit{Doron Haviv}}
+\fancyhead[R]{\textit{Updated April 2026}}
+\thispagestyle{empty} % Remove header from the first page
+
+% Header
+\begin{center}
+    \textbf{\Huge \scshape Doron Haviv} \\ 
+    \Large{Research Scientist at Genentech} \\ 
+    \small
+    \vspace{4pt} 
+        \faIcon{envelope}
+    \href{mailto:doron.haviv12@gmail.com}
+    {\underline{doron.haviv12@gmail.com}}  $  $
+    \faIcon{graduation-cap}
+    \href{https://scholar.google.com/citations?user=tWeeha4AAAAJ&hl=en&oi=ao}{\underline{Doron Haviv}} $  $
+    \faIcon{linkedin}
+    \href{https://www.linkedin.com/in/doron-haviv-92ab63138/}{\underline{linkedin.com/in/doron-haviv}} $  $
+    \faIcon{globe}
+    \href{https://doronhav.github.io}{\underline{doronhav.github.io}}
+\end{center}
+
+
+\section*{EMPLOYMENT}
+\noindent
+\textbf{Genentech} \footnotesize{BRAID - Biology Research | AI Development} \vspace{2pt} \hfill June 2025 – Present \\
+\normalsize{Research Scientist - Spatial Genomics}
+
+% Education Section
+\section*{EDUCATION}
+\noindent
+\textbf{Cornell University} \footnotesize{Joint Memorial Sloan Kettering Cancer Center} \vspace{2pt} \hfill July 2019 – April 2025 \\
+\normalsize{Ph.D. in Computational Biology and Medicine\vspace{4pt}} \\ 
+\indent Research Advisor: Dana Pe’er \\
+\indent Thesis: From Cells to Niche - The Geometry of Spatial Transcriptomics \\
+
+\noindent\\
+\normalsize{\textbf{Technion - Israel Institute of Technology}\vspace{2pt}}   \hfill \footnotesize{October 2014 – October 2018}\\ 
+\normalsize{B.Sc. Electrical Engineering (\textit{cum laude})\vspace{4pt}}\\
+\normalsize{B.Sc. Physics (\textit{cum laude})\vspace{4pt}}\\
+\indent Research Advisor: Omri Barak \\
+\indent Thesis: Understanding and Controlling Memory in Recurrent Neural Networks. \\
+
+\section*{RESEARCH INTERESTS}
+\noindent
+generative models, single-cell genomics, optimal transport, spatial transcriptomics
+
+\section*{PUBLICATIONS AND PRE-PRINTS}
+\begin{hangparas}{.25in}{1}
+
+\normalsize{\underline{Haviv, D.*}, De Brouwer, E.*, Rishabh, A., Ying, R., Scalia, G., Corrada-Bravo, H. 2026. When Riemann flows with Wasserstein: Generative Modeling of Probability Distributions on Manifolds. \textit{In Review}\\
+
+
+
+\normalsize Andersson, A.*, Ismail, A.A.*, De Brouwer, E.*, \underline{Haviv, D.*}, Biancalani, T., Cho, K., Scalia, G., BenTaieb, A., Corrada-Bravo, H. 2025. scCBGM: Single-Cell Editing via Concept Bottlenecks. \textit{In Review}\\
+
+
+\underline{Haviv, D.*}, Pooladian, A.A.*, Pe'er, D., Amos, B. 2025. Wasserstein Flow Matching: Generative modeling over families of distributions. Proceedings of the 42st International Conference on Machine Learning, PMLR.\\
+
+\underline{Haviv, D.}, Kunes, R.Z., Dougherty, T. Burdziak, C., Nawy T., Gilbert A., Pe'er, D. 2024. Wasserstein Wormhole: Scalable Optimal Transport Distance with Transformers. Proceedings of the 41st International Conference on Machine Learning, PMLR 235:17697-17718.\\
+
+\underline{Haviv, D.}, Remšík, J., Gatie, M., Snopkowski, C., Takizawa, M., Pereira, N., ..., Pe’er, D. 2024. The covariance environment defines cellular niches for spatial inference. Nature Biotechnology, 1-12.\\
+\textbf{*Highlighted in \href{https://www.nature.com/articles/s41587-024-02207-1}{\textit{Nature Biotechnology Research Briefing}}}\\
+
+Mani, S.*, \underline{Haviv, D.*}, Kunes, R., Pe'er, D. 2022. SPOT: Spatial Optimal Transport for Analyzing Cellular Microenvironments. In NeurIPS 2022 Workshop on Learning Meaningful Representations of Life.\\
+\textbf{*Spotlight Presentation}\\
+
+Elad, A.*, \underline{Haviv, D.*}, Blau, Y. and Michaeli, T., 2019. Direct validation of the information bottleneck principle for deep nets. In Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops.\\
+\textbf{*Best poster award Statistical Deep Learning in Computer Vision Workshop}\\
+
+\underline{Haviv, D.}, Rivkind, A. and Barak, O., 2019. Understanding and controlling memory in recurrent neural networks. Proceedings of the 36th International Conference on Machine Learning, PMLR 97:2663-2671.\\
+
+Kunes, R.Z., Yin, M., Land, M., \underline{Haviv, D.}, Pe'er, D. and Tavaré, S., 2023, June. Gradient estimation for binary latent variables via gradient variance clipping. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 37, No. 7, pp. 8405-8412).\\
+
+Burdziak, C.*, Zhao, C. J.*, \underline{Haviv, D.}, Alonso-Curbelo, D., Lowe, S. W.,  Pe’er, D. 2023. scKINETICS: inference of regulatory velocity with single-cell transcriptomics data. Bioinformatics, 39(39 Suppl 1), i394–i403. \\
+\textbf{*Best paper award Intelligent Systems for Molecular Biology (ISMB) 2023.}\\
+
+Burdziak, C.*, Alonso-Curbelo, D.*, Walle, T., Reyes, J., Barriga, F. M., \underline{Haviv, D.}, Xie, Y., Zhao, Z., Zhao, C. J., Chen, H.-A., Chaudhary, O., Masilionis, I., Choo, Z.-N., Gao, V., Luan, W., Wuest, A., Ho, Y.-J., Wei, Y., Quail, D. F., … Pe’er, D. 2023. Epigenetic plasticity cooperates with cell-cell interactions to direct pancreatic tumorigenesis. Science, 380(6645), eadd5327. \\
+\textbf{*Highlighted in \href{https://aacrjournals.org/cancerdiscovery/article-abstract/13/7/1510/727607/Plasticity-Drives-Tumorigenic-Epithelial-Immune?redirectedFrom=fulltext}{\textit{Cancer Discovery}}, \href{https://www.nature.com/articles/s41575-023-00806-y}{\textit{Nature Reviews Gastroenterology and Hepatology}}, \href{https://www.cell.com/trends/cancer/fulltext/S2405-8033(23)00130-9?dgcid=raven_jbs_aip_email}{\textit{Cell Trends in Cancer}}, and \href{https://magazine.eacr.org/highlights-in-cancer-research-august-2023/}{EACR Highlights in Cancer Research}.}\\
+
+
+Raayoni, G., Gottlieb, S., Manor, Y., Pisha, G., Harris, Y., Mendlovic, U., \underline{Haviv, D.}, Hadad, Y. and Kaminer, I., 2021. Generating conjectures on fundamental constants with the Ramanujan Machine. Nature, 590(7844), pp.67-73.\\
+\textbf{*Highlighted in \href{https://www.newscientist.com/article/2209213-computer-attempts-to-replicate-the-dream-like-maths-of-ramanujan/}{\textit{New Scientist}}}\\
+
+}
+
+\end{hangparas}
+
+
+
+% Projects Section
+\section*{AWARDS AND HONORS}
+\noindent
+\normalsize
+\textbf{Best Poster Award}, SDL-VC workshop, International Conference on Computer Vision	\hfill 2019 \\
+Yehoraz Kasher Prize \textbf{Best Student Project in Electrical Engineering, 3rd Place} 	\hfill 2018 \\
+Technion - Israel Institute Of Technology \textbf{President's List}	\hfill 2018 \\
+Technion - Israel Institute Of Technology \textbf{Dean's List}	\hfill 2017 \\
+Technion - Israel Institute Of Technology \textbf{Dean's List}	\hfill 2016 \\
+
+\section*{INVITED AND CONTRIBUTED TALKS}
+
+\noindent
+Apple Machine Learning Research Group, Virtual \hfill  2024 \\
+\textbf{Invited Talk}: \textit{Wasserstein Wormhole: Scalable
+Optimal Transport Distance with Transformers. }	\\
+
+\noindent
+\textit{scverse} Community Meeting, Virtual \hfill  2024 \\
+\textbf{Invited Talk}: \textit{Reconstructing spatial context for single cell transcriptomics with ENVI}	\\
+
+\noindent
+Department of Computer Science Colloquium, Columbia University, New York, New York, USA \hfill  2024 \\
+\textbf{Invited Talk}: \textit{Reconstructing spatial context for single cell transcriptomics with ENVI}	\\
+
+\noindent
+Ido Amit Lab, Weizmann Institute of Science, Rehovot, Israel \hfill  2024 \\
+\textbf{Invited Talk}: \textit{Reconstructing spatial context for single cell transcriptomics with ENVI}	\\
+
+\noindent
+10x Spatial World Tour, New York Genome Center, New York, New York, USA \hfill  2023 \\
+\textbf{Invited Talk}: \textit{Reconstructing spatial context for single cell transcriptomics with ENVI}	\\
+
+\noindent
+ The Jackson Laboratory for Genomic Medicine, Farmington, Connecticut, USA \hfill 2022\\
+\textbf{Invited Talk}: \textit{Reconstructing spatial context for single cell transcriptomics with ENVI}	\\
+
+\noindent
+Fusion Conference on Probing Human Disease using Single-Cell Technologies, Cancun, MX \hfill  2022 \\
+\textbf{Contributed Talk}: \textit{Spatial Context of Heterogenous T Cell Response to Fungal Insult.}	\\
+
+\noindent
+International conference on machine learning. Long Beach, California, USA \hfill  2019 \\
+\textbf{Contributed Talk}: \textit{Understanding and controlling memory in recurrent neural networks}	\\
+
+
+
+
+\section*{TEACHING AND MENTORSHIP}
+
+\noindent
+Intern Mentor, Dana Pe'er Lab, Memorial Sloan Kettering Cancer Center\\
+\textbf{Shouvik Mani}, Spatial Optimal Transport for analyzing cellular microenvironments\hfill 2022\\
+\textbf{Yasa Baig}, Discrete latent models for interpretable single-cell analysis \hfill 2021\\
+
+\noindent
+Teaching Assistant, Technion - Israel Institute Of Technology, \hfill 2018-2019\\
+\textbf{Introduction to Biological Systems and Signals}, Head TA \\
+\textbf{Electromagnetic Fields}\\
+
+
+\section*{REVIEWING}
+\begin{itemize}
+  \item \textbf{Journals}: Nature Biomedical Engineering, Nature Biotechnology, Cell, Genome Biology
+  \item \textbf{Conferences}: NeuRIPS, ICLR, ICML, ICML Workshop in Computational Biology
+\end{itemize}
+
+% End document
+\end{document}

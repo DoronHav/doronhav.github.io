@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doron Haviv</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+
+    <!-- ── Bio ────────────────────────────────────────────────────────── -->
+    <!--
+      Place your photo at: assets/photo.jpg
+      Recommended: square crop, at least 320×320px
+    -->
+    <header class="bio">
+      <img class="bio-photo" src="assets/photo.jpg" alt="Doron Haviv">
+      <div class="bio-content">
+        <h1>Doron Haviv</h1>
+        <p class="bio-role">Machine Learning Scientist · Genentech BRAID</p>
+        <p class="bio-desc">
+          I am Doron <span class="hebrew">דורון</span> (means &#8216;gift&#8217; in Hebrew), a machine learning scientist at
+          <a href="https://www.gene.com/">Genentech</a>, working in BRAID on AI models for genomics.
+          Before that, I was a PhD candidate at the
+          <a href="https://www.mskcc.org/research/ski/labs/dana-pe-er">Dana Pe&#8217;er Lab</a>
+          at Memorial Sloan Kettering Cancer Center, through Cornell University&#8217;s PhD program in
+          Computational Biology. My research mainly revolves around optimal transport &amp; spatial transcriptomics.
+        </p>
+        <p class="bio-desc">
+          I studied Physics and Electrical Engineering at Technion, and graduated with two degrees
+          in 2018 when I was 19 years old. My undergraduate thesis was published at
+          <a href="https://proceedings.mlr.press/v97/haviv19a.html">ICML 2019</a>.
+        </p>
+        <p class="bio-desc">
+          I am married to the (much more talented)
+          <a href="https://www.linkedin.com/in/cassandra-burdziak-310391247/">Cassandra Burdziak</a>,
+          and together we take care of our tuxedo cat Terry in NYC.
+        </p>
+        <p class="bio-desc">
+          I have lived across three continents — Israel, Australia, and the United States — and visited 23 countries. Outside of research I rock climb (bouldering), am an avid Soccer fan (but poor player), and an occasional reader (big Cormac McCarthy fan). I am always hunting for the best Israeli food in NYC (current favourite is <a href="https://www.12chairscafe.com/">12 Chairs</a> in Williamsburg),
+           and have <a href="https://www.urbandictionary.com/define.php?term=solo">soloed</a> Elden Ring and its DLC.
+        </p>
+        <p class="bio-contact">Reach me at doron.haviv12 at gmail.com</p>
+        <div class="bio-personal-photos">
+          <img src="assets/cassandra_and_doron.jpg" alt="Cassandra and Doron">
+          <img src="assets/terry.jpg" alt="Terry the cat">
+        </div>
+        <nav class="bio-links">
+          <a href="https://scholar.google.com/citations?user=tWeeha4AAAAJ&hl=en&oi=ao">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/doron-haviv-92ab63138/">LinkedIn</a>
+          <a href="cv/main.pdf" target="_blank">CV</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ── Updates ────────────────────────────────────────────────────── -->
+    <section class="updates">
+      <h2>Updates</h2>
+      <ul class="update-list">
+        <li>
+          <span class="update-date">Jun 2025</span>
+          <span>Joined <strong>Genentech</strong> as a Research Scientist in the BRAID group, working on spatial genomics and generative models.</span>
+        </li>
+        <li>
+          <span class="update-date">May 2025</span>
+          <span><em>Wasserstein Flow Matching</em> accepted to <strong>ICML 2025</strong>.</span>
+        </li>
+        <li>
+          <span class="update-date">Jun 2024</span>
+          <span>
+            <em>The covariance environment defines cellular niches for spatial inference</em> published in
+            <strong>Nature Biotechnology</strong> and highlighted in a
+            <a href="https://www.nature.com/articles/s41587-024-02207-1">Research Briefing</a>.
+          </span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ── Publications ───────────────────────────────────────────────── -->
+    <!--
+      Place paper images in assets/papers/ using these filenames (all square JPGs or PNGs):
+        riemann-wasserstein.jpg
+        sccbgm.jpg
+        wfm.jpg
+        wormhole.jpg
+        envi.jpg
+        spot.jpg
+        info-bottleneck.jpg
+        rnn-memory.jpg
+        gradient-clipping.jpg
+        sckinetics.jpg
+        pancreatic.jpg
+        ramanujan.jpg
+    -->
+    <section class="pubs">
+      <h2>Publications</h2>
+
+      <div class="pub">
+        <img class="pub-img" src="assets/papers/riemann-wasserstein.jpg" alt="" loading="lazy">
+        <div class="pub-text">
+          <p class="pub-title">When Riemann flows with Wasserstein: Generative Modeling of Probability Distributions on Manifolds</p>
+          <p class="pub-authors"><span class="me">Haviv, D.*</span>, De Brouwer, E.*, Rishabh, A., Ying, R., Scalia, G., Corrada-Bravo, H.</p>
+          <p class="pub-venue">In Review · 2026</p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <img class="pub-img" src="assets/papers/sccbgm.jpg" alt="" loading="lazy">
+        <div class="pub-text">
+          <p class="pub-title">scCBGM: Single-Cell Editing via Concept Bottlenecks</p>
+          <p class="pub-authors">Andersson, A.*, Ismail, A.A.*, De Brouwer, E.*, <span class="me">Haviv, D.*</span>, Biancalani, T., Cho, K., Scalia, G., BenTaieb, A., Corrada-Bravo, H.</p>
+          <p class="pub-venue">In Review · 2025</p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <img class="pub-img" src="assets/papers/wfm.jpg" alt="" loading="lazy">
+        <div class="pub-text">
+          <p class="pub-title">Wasserstein Flow Matching: Generative modeling over families of distributions</p>
+          <p class="pub-authors"><span class="me">Haviv, D.*</span>, Pooladian, A.A.*, Pe'er, D., Amos, B.</p>
+          <p class="pub-venue">ICML · 2025</p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <img class="pub-img" src="assets/papers/wormhole.jpg" alt="" loading="lazy">
+        <div class="pub-text">
+          <p class="pub-title">Wasserstein Wormhole: Scalable Optimal Transport Distance with Transformers</p>
+          <p class="pub-authors"><span class="me">Haviv, D.</span>, Kunes, R.Z., Dougherty, T., Burdziak, C., Nawy, T., Gilbert, A., Pe'er, D.</p>
+          <p class="pub-venue">ICML · 2024</p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <img class="pub-img" src="assets/papers/envi.jpg" alt="" loading="lazy">
+        <div class="pub-text">
+          <p class="pub-title">The covariance environment defines cellular niches for spatial inference</p>
+          <p class="pub-authors"><span class="me">Haviv, D.</span>, Remšík, J., Gatie, M., Snopkowski, C., Takizawa, M., Pereira, N., …, Pe'er, D.</p>
+          <p class="pub-venue">Nature Biotechnology · 2024 &nbsp;·&nbsp; <strong>Highlighted in: <a href="https://www.nature.com/articles/s41587-024-02207-1">Research Briefing</a></strong></p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <img class="pub-img" src="assets/papers/spot.jpg" alt="" loading="lazy">
+        <div class="pub-text">
+          <p class="pub-title">SPOT: Spatial Optimal Transport for Analyzing Cellular Microenvironments</p>
+          <p class="pub-authors">Mani, S.*, <span class="me">Haviv, D.*</span>, Kunes, R., Pe'er, D.</p>
+          <p class="pub-venue">NeurIPS Workshop on Learning Meaningful Representations of Life · 2022 &nbsp;·&nbsp; <strong>Spotlight</strong></p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <img class="pub-img" src="assets/papers/info-bottleneck.jpg" alt="" loading="lazy">
+        <div class="pub-text">
+          <p class="pub-title">Direct validation of the information bottleneck principle for deep nets</p>
+          <p class="pub-authors">Elad, A.*, <span class="me">Haviv, D.*</span>, Blau, Y., Michaeli, T.</p>
+          <p class="pub-venue">ICCV Workshop on Statistics of Deep Learning · 2019 &nbsp;·&nbsp; <strong>Best Poster Award</strong></p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <img class="pub-img" src="assets/papers/rnn-memory.jpg" alt="" loading="lazy">
+        <div class="pub-text">
+          <p class="pub-title">Understanding and controlling memory in recurrent neural networks</p>
+          <p class="pub-authors"><span class="me">Haviv, D.</span>, Rivkind, A., Barak, O.</p>
+          <p class="pub-venue">ICML · 2019</p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <img class="pub-img" src="assets/papers/gradient-clipping.jpg" alt="" loading="lazy">
+        <div class="pub-text">
+          <p class="pub-title">Gradient estimation for binary latent variables via gradient variance clipping</p>
+          <p class="pub-authors">Kunes, R.Z., Yin, M., Land, M., <span class="me">Haviv, D.</span>, Pe'er, D., Tavaré, S.</p>
+          <p class="pub-venue">AAAI · 2023</p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <img class="pub-img" src="assets/papers/sckinetics.jpg" alt="" loading="lazy">
+        <div class="pub-text">
+          <p class="pub-title">scKINETICS: inference of regulatory velocity with single-cell transcriptomics data</p>
+          <p class="pub-authors">Burdziak, C.*, Zhao, C.J.*, <span class="me">Haviv, D.</span>, Alonso-Curbelo, D., Lowe, S.W., Pe'er, D.</p>
+          <p class="pub-venue">Bioinformatics · 2023 &nbsp;·&nbsp; <strong>Best Paper ISMB 2023</strong></p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <img class="pub-img" src="assets/papers/pancreatic.jpg" alt="" loading="lazy">
+        <div class="pub-text">
+          <p class="pub-title">Epigenetic plasticity cooperates with cell-cell interactions to direct pancreatic tumorigenesis</p>
+          <p class="pub-authors">Burdziak, C.*, Alonso-Curbelo, D.*, Walle, T., Reyes, J., Barriga, F.M., <span class="me">Haviv, D.</span>, …, Pe'er, D.</p>
+          <p class="pub-venue">Science · 2023 &nbsp;·&nbsp; <strong>Highlighted in: Cancer Discovery, Nature Reviews GI &amp; Hepatology, Cell Trends in Cancer</strong></p>
+        </div>
+      </div>
+
+      <div class="pub">
+        <img class="pub-img" src="assets/papers/ramanujan.jpg" alt="" loading="lazy">
+        <div class="pub-text">
+          <p class="pub-title">Generating conjectures on fundamental constants with the Ramanujan Machine</p>
+          <p class="pub-authors">Raayoni, G., Gottlieb, S., Manor, Y., Pisha, G., Harris, Y., Mendlovic, U., <span class="me">Haviv, D.</span>, Hadad, Y., Kaminer, I.</p>
+          <p class="pub-venue">Nature · 2021</p>
+        </div>
+      </div>
+
+    </section>
+  </div>
+</body>
+</html>
